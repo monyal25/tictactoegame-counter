@@ -4,10 +4,6 @@
 
 This is a Python-based tic-tac-toe game state generator that systematically explores all possible valid game sequences following proper tic-tac-toe rules. The program generates and counts unique completed game states by simulating games where X always goes first, players alternate turns, and games end when someone wins or the board is full. The primary purpose is to analyze the complete game tree of tic-tac-toe and identify all possible unique end states.
 
-## User Preferences
-
-Preferred communication style: Simple, everyday language.
-
 ## System Architecture
 
 **Core Design Pattern**: Recursive Game Tree Exploration
