@@ -27,6 +27,24 @@ The application uses a recursive depth-first search approach to explore all poss
 **Algorithm Choice**: Complete Enumeration vs Optimization
 The system prioritizes completeness over performance, exploring every possible valid game sequence to ensure no unique end states are missed. This brute-force approach is suitable given tic-tac-toe's limited state space.
 
+Make sure you have Python 3.9+ installed, then run:
+
+```bash
+python main.py
+```
+
+### Expected output
+number of valid states
+
+
+## Running tests
+
+A small test suite is included. To run it:
+
+```bash
+python test_tictactoe.py
+```
+
 ## External Dependencies
 
 **Runtime Environment**: Python 3.x
